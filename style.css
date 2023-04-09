@@ -88,41 +88,33 @@ p {
 	background-color: #F2F2F2;
 }
 
-/* Feature section styles */
-.feature-section {
-	background-color: #F2F2F2;
-	padding: 100px 0;
-}
+/* Add the following CSS to the existing CSS stylesheet */
 
 .features {
 	display: flex;
-	justify-content: space-between;
-	margin-top: 50px;
+	flex-direction: column;
 }
 
 .feature {
-	flex-basis: calc(33.33% - 20px);
-	background-color: #FFFFFF;
-	border-radius: 5px;
-	padding: 20px;
-	box-shadow: 0px 0px 10px #CCCCCC;
-	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 40px;
 }
 
 .feature i {
 	font-size: 48px;
-	color: #4CAF50;
-	margin-bottom: 20px;
+	margin-right: 30px;
 }
 
 .feature h3 {
-	font-size: 24px;
-	margin: 0;
+	margin-bottom: 20px;
 }
 
 .feature p {
-	font-size: 16px;
-	margin-top: 10px;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-right: 30px;
 }
 
 /* About section styles */
