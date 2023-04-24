@@ -44,9 +44,11 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-6">
-                            <form class="input-group mb-3">
-                                <input type="email" class="form-control" placeholder="Enter your email address to subscribe to our newsletter" aria-label="Enter your email address" aria-describedby="button-addon2">
-                                <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+
+							<form class="input-group mb-3" action="https://api.sheetmonkey.io/form/iXQpb5PvWkmWx4LzUcQCco" method="post">
+                                <input type="email" name="Email" class="form-control" placeholder="Enter your email address to subscribe to our newsletter" aria-label="Enter your email address" aria-describedby="button-addon2" required />
+								<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                                <input class="btn btn-primary" type="submit" id="button-addon2" value="Subscribe" />
                             </form>
                         </div>
                     </div>
