@@ -1,5 +1,11 @@
 /* Custom styles for Netreplica - works with Bootstrap */
 
+/* Hero logo styling */
+.hero-logo {
+	max-width: 400px;
+	height: auto;
+}
+
 /* Command line styling */
 .command-line {
 	font-family: 'Courier New', Courier, monospace;
