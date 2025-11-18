@@ -15,6 +15,8 @@
 		</script>
 		<!-- Link to the Bootstrap CSS stylesheet -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<!-- Link to custom CSS stylesheet -->
+		<link rel="stylesheet" href="style.css">
 		<!-- Path to the favicon -->
 		<link rel="shortcut icon" href="assets/brand/favicon.ico" type="image/x-icon">
 	</head>
@@ -65,25 +67,42 @@
         </div>
 		</header>
 		<main>
-            <section class="feature-section bg-light py-5">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-4 mb-4">
-							<div class="feature text-center">
-								<a href="https://github.com/netreplica/nrx"><h3 class="h4">nrx</h3></a>
-								<p>Netreplica Exporter<br>Replicating networks in software with NetBox data</p>
-							</div>
-						</div>
-						<div class="col-md-4 mb-4">
-							<div class="feature text-center">
-								<a href="https://github.com/netreplica/templates"><h3 class="h4">templates</h3></a>
-								<p>Netreplica templates<br>Building blocks for emulated network topologies</p>
-							</div>
-						</div>
-                        <div class="col-md-4 mb-4">
-                            <div class="feature text-center">
-                                <a href="https://github.com/netreplica/graphite"><h3 class="h4">graphite</h3></a>
-                                <p>Topology Visualization<br>Human-facing side of network automation</p>
+            <!-- Product: nrx -->
+            <section class="product-section py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <div class="product-image">
+                                <img src="assets/products/nrx-preview.png" alt="nrx - Netreplica Exporter" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="product-content">
+                                <h2 class="mb-3">nrx</h2>
+                                <h4 class="text-muted mb-4">Netreplica Exporter</h4>
+                                <p class="lead mb-4">Replicate networks in software using NetBox data. Export your network topology and automatically generate containerized network environments for testing and development.</p>
+                                <a href="https://github.com/netreplica/nrx" class="btn btn-primary btn-lg" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product: graphite -->
+            <section class="product-section bg-light py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                            <div class="product-image">
+                                <img src="assets/products/graphite-preview.png" alt="Graphite - Topology Visualization" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-1">
+                            <div class="product-content">
+                                <h2 class="mb-3">graphite</h2>
+                                <h4 class="text-muted mb-4">Topology Visualization</h4>
+                                <p class="lead mb-4">The human-facing side of network automation. Visualize your network topology in an intuitive, interactive interface that makes complex networks easy to understand.</p>
+                                <a href="https://github.com/netreplica/graphite" class="btn btn-primary btn-lg" target="_blank">View on GitHub</a>
                             </div>
                         </div>
                     </div>
