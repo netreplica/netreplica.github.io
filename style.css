@@ -12,6 +12,40 @@
 	letter-spacing: 0.5px;
 }
 
+/* Footer styling (combined with about section) */
+.footer {
+	background-color: #000000;
+}
+
+.footer h3 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.footer .lead {
+	font-size: 1.25rem;
+	color: #cccccc;
+}
+
+.footer p {
+	font-size: 1.1rem;
+	color: #aaaaaa;
+	line-height: 1.8;
+}
+
+.footer-link {
+	color: #6ea8fe;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+	color: #9ec5fe;
+	text-decoration: underline;
+}
+
 /* Social media icons spacing */
 .social-media {
 	display: flex;
