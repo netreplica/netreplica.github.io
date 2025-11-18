@@ -1,0 +1,9 @@
+[submodule "docs.md/nrx"]
+	path = docs.md/nrx
+	url = https://github.com/netreplica/nrx.git
+[submodule "docs.md/templates"]
+	path = docs.md/templates
+	url = https://github.com/netreplica/templates.git
+[submodule "docs.md/graphite"]
+	path = docs.md/graphite
+	url = https://github.com/netreplica/graphite.git
