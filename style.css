@@ -1,5 +1,11 @@
 /* Custom styles for Netreplica - works with Bootstrap */
 
+/* Command line styling */
+.command-line {
+	font-family: 'Courier New', Courier, monospace;
+	letter-spacing: 0.5px;
+}
+
 /* Social media icons spacing */
 .social-media {
 	display: flex;
