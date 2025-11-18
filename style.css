@@ -58,3 +58,34 @@
 		font-size: 2rem;
 	}
 }
+
+/* Modal styling for image enlargement */
+#graphiteModal .modal-dialog {
+	max-width: 90vw;
+}
+
+#graphiteModal .modal-content {
+	background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+#graphiteModal .modal-header {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1050;
+}
+
+#graphiteModal .btn-close {
+	opacity: 0.8;
+	filter: brightness(0) invert(1);
+}
+
+#graphiteModal .btn-close:hover {
+	opacity: 1;
+}
+
+#graphiteModal .modal-body img {
+	max-height: 85vh;
+	width: auto;
+	margin: 0 auto;
+}

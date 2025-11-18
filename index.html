@@ -94,7 +94,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
                             <div class="product-image">
-                                <img src="assets/products/graphite-preview.gif" alt="Graphite - Topology Visualization" class="img-fluid rounded shadow">
+                                <img src="assets/products/graphite-preview.gif" alt="Graphite - Topology Visualization" class="img-fluid rounded shadow" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#graphiteModal">
                             </div>
                         </div>
                         <div class="col-lg-6 order-lg-1">
@@ -131,6 +131,20 @@
                 </div>
             </div>
         </footer>
+        <!-- Modal for enlarged image -->
+        <div class="modal fade" id="graphiteModal" tabindex="-1" aria-labelledby="graphiteModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center p-0">
+                        <img src="assets/products/graphite-preview.gif" alt="Graphite - Topology Visualization" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="https://kit.fontawesome.com/a60e36566b.js" crossorigin="anonymous"></script>
         <!-- Link to the Bootstrap JS bundle -->
         <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
