@@ -1,5 +1,59 @@
 /* Custom styles for Netreplica - works with Bootstrap */
 
+/* Beta Announcement Banner */
+.beta-announcement {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	padding: 12px 20px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.beta-badge {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 0.75rem;
+	padding: 4px 8px;
+	border-radius: 4px;
+	margin-right: 12px;
+	letter-spacing: 1px;
+}
+
+.beta-text {
+	color: #ffffff;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.beta-link {
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: underline;
+	transition: opacity 0.2s ease;
+}
+
+.beta-link:hover {
+	color: #ffffff;
+	opacity: 0.8;
+}
+
+/* Responsive adjustments for beta banner */
+@media (max-width: 768px) {
+	.beta-announcement {
+		padding: 10px 15px;
+	}
+
+	.beta-text {
+		font-size: 0.9rem;
+	}
+
+	.beta-badge {
+		display: block;
+		margin-bottom: 8px;
+		margin-right: 0;
+	}
+}
+
 /* Hero logo styling */
 .hero-logo {
 	max-width: 400px;
